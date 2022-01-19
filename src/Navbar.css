@@ -1,0 +1,20 @@
+.Navbar {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aquamarine;
+    height: 3rem;
+
+    display: flex;
+}
+
+.Navbar a {
+    padding: 1rem 2rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.Navbar a.active {
+    color: black;
+}
